@@ -1,7 +1,8 @@
 function Matematicas(props){
 
-    const {Numero, metodoTriple} = props;
+    const {Numero, triple} = props;
 
+    //METODO PARA MOSTRAR EL DOBLE
     const doble = ()=>{
         var doble = Numero * 2;
         console.log("El doble es: " + doble);
@@ -13,7 +14,7 @@ function Matematicas(props){
                 Doble
             </button>
             <br/> <br/> 
-            <button onClick={()=> metodoTriple(Numero)}>
+            <button onClick={()=> triple(Numero)}>
                 Triple
             </button>
         </div>
