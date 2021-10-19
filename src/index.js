@@ -5,13 +5,19 @@ import App from './components/App/App';
 import Saludo from './components/Saludo/Saludo';
 import Metodos from './components/Metodos/Metodos';
 import reportWebVitals from './reportWebVitals';
+import SumarNumeros from './components/SumarNumeros/SumarNumeros';
+import Padre from './components/Matematicas/Padre';
 
 ReactDOM.render(
-  <div>
-    <Metodos/> 
-    {/* <App /> */}
+  <div className="App">
+    {/* <Metodos/> 
     <Saludo nombre="Lucas" edad="22"/>
-    <Saludo nombre="Juan" edad="23"/>
+    <Saludo nombre="Juan" edad="23"/> */}
+    <App /> 
+    {/* <SumarNumeros Numero1="5" Numero2="88"/>
+    <SumarNumeros Numero1="999" Numero2="8888"/>
+    <SumarNumeros Numero1="789" Numero2="7821"/> */}
+    <Padre />
   </div>,
     
   document.getElementById('root')
