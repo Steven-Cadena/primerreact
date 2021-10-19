@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <div>
     <Metodos/> 
+    {/* <App /> */}
     <Saludo nombre="Lucas" edad="22"/>
     <Saludo nombre="Juan" edad="23"/>
   </div>,
