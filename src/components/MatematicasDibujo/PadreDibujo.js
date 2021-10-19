@@ -15,6 +15,7 @@ function PadreDibujo(){
         <div>
             <MatematicasDibujo Numero1="10" Numero2="2" multiplicar={multiplicar}/>
             <MatematicasDibujo Numero1="5" Numero2="2" multiplicar={multiplicar}/>
+            <h1>{multiplicacion}</h1>
             
         </div>
     )
