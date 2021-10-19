@@ -7,17 +7,23 @@ import Metodos from './components/Metodos/Metodos';
 import reportWebVitals from './reportWebVitals';
 import SumarNumeros from './components/SumarNumeros/SumarNumeros';
 import Padre from './components/Matematicas/Padre';
+import Contador from './components/Contador/Contador';
+import PadreDibujo from './components/MatematicasDibujo/PadreDibujo';
 
 ReactDOM.render(
   <div className="App">
     {/* <Metodos/> 
     <Saludo nombre="Lucas" edad="22"/>
-    <Saludo nombre="Juan" edad="23"/> */}
+    <Saludo nombre="Juan" edad="23"/> 
     <App /> 
     {/* <SumarNumeros Numero1="5" Numero2="88"/>
     <SumarNumeros Numero1="999" Numero2="8888"/>
-    <SumarNumeros Numero1="789" Numero2="7821"/> */}
-    <Padre />
+    <SumarNumeros Numero1="789" Numero2="7821"/> 
+    <Contador Inicio="5"/>
+    <Contador Inicio="5000"/>
+    <Contador Inicio="500"/>
+    <Contador Inicio="50"/>*/}
+    <PadreDibujo/>
   </div>,
     
   document.getElementById('root')

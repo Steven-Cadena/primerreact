@@ -12,6 +12,7 @@ function Padre(){
             <Matematicas Numero="5" triple={triple}/>
             <Matematicas Numero="10" triple={triple}/>
             <Matematicas Numero="15" triple={triple}/>
+            
         </div>
     );
 
