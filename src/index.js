@@ -9,6 +9,7 @@ import SumarNumeros from './components/SumarNumeros/SumarNumeros';
 import Padre from './components/Matematicas/Padre';
 import Contador from './components/Contador/Contador';
 import PadreDibujo from './components/MatematicasDibujo/PadreDibujo';
+import Car from './components/Car/Car';
 
 ReactDOM.render(
   <div className="App">
@@ -22,10 +23,12 @@ ReactDOM.render(
     <Contador Inicio="5"/>
     <Contador Inicio="5000"/>
     <Contador Inicio="500"/>
-    <Contador Inicio="50"/>*/}
-    <PadreDibujo/>
+    <Contador Inicio="50"/>
+    <PadreDibujo/>*/}
+    <Car Marca="Pontiac" Modelo="Firebird" Aceleracion="20" VelocidadMaxima="210"/>
+    <Car Marca="Seat" Modelo="600" Aceleracion="10" VelocidadMaxima="120"/>
+    <Car Marca="Audi" Modelo="A6 Sportback" Aceleracion="40" VelocidadMaxima="310"/>
   </div>,
-    
   document.getElementById('root')
 );
 
